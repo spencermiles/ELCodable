@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558A1FF11D120E780061417F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A1FF01D120E780061417F /* Date.swift */; };
+		55E951D41D12144C002DCE04 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E951D31D12144C002DCE04 /* DateTests.swift */; };
 		CA0C9F1A1BF4AD08006459C7 /* ELCodable.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0C9F191BF4AD08006459C7 /* ELCodable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA0C9F211BF4AD08006459C7 /* ELCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0C9F161BF4AD08006459C7 /* ELCodable.framework */; };
 		CA0C9F261BF4AD08006459C7 /* ELCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C9F251BF4AD08006459C7 /* ELCodableTests.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558A1FF01D120E780061417F /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		55E951D31D12144C002DCE04 /* DateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		CA0C9F161BF4AD08006459C7 /* ELCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0C9F191BF4AD08006459C7 /* ELCodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELCodable.h; sourceTree = "<group>"; };
 		CA0C9F1B1BF4AD08006459C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 				CA0C9F321BF4AD47006459C7 /* JSON */,
 				CA0C9F191BF4AD08006459C7 /* ELCodable.h */,
 				CA0C9F411BF4AD92006459C7 /* Decimal.swift */,
+				558A1FF01D120E780061417F /* Date.swift */,
 				CA0C9F1B1BF4AD08006459C7 /* Info.plist */,
 			);
 			path = ELCodable;
@@ -115,6 +120,7 @@
 				CA3952A81C45C44B00A24CDF /* NestedErrorTesting.swift */,
 				CA0C9F461BF4ADE0006459C7 /* JSONTests.swift */,
 				CAF4B88E1C496F36000A42C7 /* DecimalTests.swift */,
+				55E951D31D12144C002DCE04 /* DateTests.swift */,
 				CA0C9F271BF4AD08006459C7 /* Info.plist */,
 			);
 			path = ELCodableTests;
@@ -274,6 +280,7 @@
 				CA0C9F3C1BF4AD79006459C7 /* Encodable.swift in Sources */,
 				CA0C9F3D1BF4AD79006459C7 /* EncodableExtensions.swift in Sources */,
 				CA0C9F3E1BF4AD79006459C7 /* EncodeOperators.swift in Sources */,
+				558A1FF11D120E780061417F /* Date.swift in Sources */,
 				CA0C9F421BF4AD92006459C7 /* Decimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +293,7 @@
 				CA0C9F261BF4AD08006459C7 /* ELCodableTests.swift in Sources */,
 				CA0C9F471BF4ADE0006459C7 /* JSONTests.swift in Sources */,
 				CAF4B88F1C496F36000A42C7 /* DecimalTests.swift in Sources */,
+				55E951D41D12144C002DCE04 /* DateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
